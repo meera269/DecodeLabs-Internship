@@ -1,0 +1,27 @@
+Project Title: SQL-Driven Business Intelligence Analysis
+Role: Data Analyst (Industrial Training Project)
+
+Organization: DecodeLabs
+
+1. Project Abstract
+This project represents the Extraction and Analytical Phase of the data lifecycle. The objective was to move beyond simply viewing data in spreadsheets and instead use Relational Logic to query for truth. I transformed raw transactional data from an Excel workbook into a structured SQLite Relational Database to perform complex data filtering and categorical analysis.
+
+2. Technical Workflow
+Data Migration: Structured the Dataset for Data Analytics3.xlsx into a relational format using Python's Pandas and SQLAlchemy libraries.
+
+Database Schema: Created a local SQLite database (project3_final_db.db) and mapped the dataset to a primary table named project_data.
+
+Parsing and Binding: Utilized the database engine to verify query grammar and bind variables, ensuring efficient execution plans.
+
+Data Funneling (WHERE): Implemented row-level filtering to isolate specific business cases, such as "Delivered" orders or transactions exceeding specific price thresholds.
+
+Categorical Bucketing (GROUP BY): Organized 1,200+ raw records into distinct product categories to identify high-level trends.
+
+3. Key Performance Indicators (KPIs) Analyzed
+Using SQL Aggregations, I generated the following insights:
+
+Order Volume (COUNT): Determined the total number of transactions processed per product line.
+
+Gross Revenue (SUM): Calculated total earnings for each category to identify top-performing assets.
+
+Pricing Strategy (AVG): Analyzed the average unit price across different categories to understand market positioning.By successfully completing this milestone, I have demonstrated the ability to bridge the gap between massive, unstructured datasets and specific business answers. This project confirms my proficiency in SQL fundamentals, including data extraction, filtering, and multi-level grouping, which are essential for building automated reporting pipelines.
